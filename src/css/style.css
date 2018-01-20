@@ -490,6 +490,13 @@ p {
   display: inline-block;
   margin-left: 10%; }
 
+.l-description {
+  height: 25em;
+  margin-top: 2%; }
+
+.l-product__figure {
+  margin: 0; }
+
 .wrap {
   width: 100%; }
 
