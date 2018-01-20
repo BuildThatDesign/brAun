@@ -1,0 +1,23 @@
+@import "reset.scss";
+@import "_variables.scss";
+
+
+
+h1 {
+  font-size: 60px;
+  font-family: $font-family;
+  color: $secondry-font-colour;
+  margin: 0;
+  font-weight: 100;
+}
+
+h3 {
+  font-size: 40px;
+  font-family: $secondry-font-family;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.7;
+  font-family: $font-family;
+}

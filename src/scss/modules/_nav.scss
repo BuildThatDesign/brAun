@@ -1,0 +1,32 @@
+.navigation {
+  display: inline-block;
+  width: 50%;
+
+}
+
+.navigation__list {
+  padding-left: 0;
+}
+
+.navigation__item {
+  display: inline-block;
+  margin-right: 6%;
+  font-family: $font-family;
+  color: $primary-font-colour;
+
+  a {
+    font-family: $font-family;
+    color: $secondry-font-colour;
+  }
+
+  [type="search"]  {
+    background-color: $primary-bg-colour;
+    border-color: white;
+    color: white;
+    outline: none;
+  }
+}
+
+.float--right {
+  float: right;
+}

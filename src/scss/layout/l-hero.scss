@@ -1,0 +1,24 @@
+@import "_variables";
+
+
+.l-hero {
+  background-color: $primary-bg-colour;
+  height: 34em;
+}
+
+
+.l-hero__content {
+  display: inline-block;
+  margin-left: 12%;
+  margin-top: 5%;
+}
+
+.l-hero__desc {
+  color: $secondry-font-colour;
+  margin-top: 15%;
+}
+
+.l-hero__figure {
+  display: inline-block;
+  margin-left: 10%;
+}
