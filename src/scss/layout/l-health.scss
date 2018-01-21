@@ -1,0 +1,26 @@
+@import "_variables";
+
+.l-health {
+  height: 40em;
+}
+.l-health__image {
+  // background-image: url("/images/bike2.png");
+  background: url(/images/bike5.jpg);
+  background-repeat: no-repeat;
+  height: 50em;
+  background-size: cover;
+  margin-top: .7%;
+  // img {
+  //   width: 100%;
+  //   height: 58em;
+  //   margin-top: -1%;
+  // }
+
+}
+
+.l-health__content {
+  float: right;
+  margin-top: 10%;
+  margin-right: 3%;
+  color: $secondry-font-colour;
+}
