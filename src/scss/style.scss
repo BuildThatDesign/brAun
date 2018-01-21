@@ -6,3 +6,84 @@
 @import "layout/_layout.scss";
 
 @import "modules/_modules.scss";
+
+
+/* Media queries
+-------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 1100px) {
+
+  .l-hero {
+    text-align: center;
+
+  }
+
+  .l-hero__content {
+    margin-left: 0;
+  }
+
+  .l-hero__figure {
+    display: block;
+    margin-left: 0;
+    margin-top: 6%;
+  }
+
+}
+
+
+@media screen and (max-width: 933px)  {
+
+  .navigation {
+    display: none;
+  }
+
+}
+
+
+@media screen and (max-width: 854px)  {
+  .l-description {
+    height: 45em;
+  }
+
+  .l-feature__block {
+    width: 100%;
+    text-align: center;
+  }
+
+  .l-feature__content {
+    padding-left: 15%;
+    padding-right:15%;
+  }
+
+  .l-product__figure--mb {
+    display: block;
+    margin: 0;
+  }
+
+  .l-product__content--mb {
+    display: block;
+    text-align: center;
+    margin: 0;
+
+    p {
+      padding-left: 15%;
+      padding-right: 15%;
+    }
+
+  }
+
+  .l-product__figure {
+    display: none;
+  }
+
+  .l-product__content {
+    display: none;
+  }
+
+  .l-product {
+    height: 75em;
+  }
+
+
+
+}
