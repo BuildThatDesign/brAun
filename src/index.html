@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="/css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Sarala:700" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
   </head>
   <body>
 
@@ -25,6 +26,22 @@
                <li class="navigation__item"><a class= "navigation__link" href="#"><input type="search" name="" placeholder="Search"> </a></li>
              </ul>
            </nav>
+
+
+           <!-- Mobile navigation -->
+
+           <button class="toggle">
+             <i class="fas fa-bars"></i>
+           </button>
+
+           <nav class="l-header__nav--mb">
+              <ul class="navigation__list--mb">
+                <li class="navigation__item--mb"><a class= "navigation__link--mb" href="#">Products</a></li>
+                <li class="navigation__item--mb"><a class= "navigation__link--mb" href="#">Offers</a></li>
+                <li class="navigation__item--mb"><a class= "navigation__link--mb" href="#">Services</a></li>
+              </ul>
+            </nav>
+           <!-- End of Mobile navigation-->
 
         </div>
       </header>
@@ -175,6 +192,12 @@
 
     </div>
 
-
+    <script type="text/javascript">
+      var button = document.querySelector('.toggle');
+      var nav = document.querySelector('.l-header__nav--mb');
+      button.addEventListener('click',function(){
+        nav.classList.toggle('show');
+      })
+    </script>
   </body>
 </html>
