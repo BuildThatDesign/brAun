@@ -120,7 +120,91 @@
 }
 
 
-// @media screen and (max-width: 854px)  {
-//
-//
-// }
+@media screen and (max-width: 685px)  {
+  .l-product {
+    height: 65em;
+  }
+
+  .l-health {
+    height: 65em;
+  }
+
+}
+
+
+@media screen and (max-width: 425px)  {
+  .l-description {
+    height: 50em;
+  }
+
+  .l-product {
+    height: 55em;
+  }
+
+  .l-health {
+    height: 55em;
+  }
+
+  .l-hero {
+    height: 43em;
+  }
+
+  .l-hero__content {
+    margin-top: 10%;
+      h1 {
+        font-size: 3em;
+        padding-left: 4%;
+        padding-right: 4%;
+      }
+  }
+
+  .l-hero__desc {
+    font-size: 1.1em;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+}
+
+
+@media screen and (max-width: 351px)  {
+  .l-description {
+    height: 50em;
+  }
+
+  .l-product {
+    height: 55em;
+  }
+
+  .l-health {
+    height: 55em;
+  }
+
+  .l-hero__content {
+      h1 {
+        font-size: 2.6em;
+      }
+  }
+
+  .l-hero__desc {
+    font-size: 1em;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .l-hero__figure {
+    img {
+      width: 85%;
+    }
+  }
+
+  .l-description {
+    height: 60em;
+  }
+
+  .l-hero__content {
+    margin-top: 25%;
+  }
+
+
+}
