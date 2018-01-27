@@ -523,6 +523,12 @@ p {
   margin-right: 3%;
   color: white; }
 
+.l-health__image--mb {
+  display: none; }
+
+.l-health__content--mb {
+  display: none; }
+
 .wrap {
   width: 100%; }
 
@@ -604,7 +610,8 @@ p {
     height: 45em; }
   .l-feature__block {
     width: 100%;
-    text-align: center; }
+    text-align: center;
+    margin: 0; }
   .l-feature__content {
     padding-left: 15%;
     padding-right: 15%; }
@@ -623,4 +630,22 @@ p {
   .l-product__content {
     display: none; }
   .l-product {
+    height: 75em; }
+  .l-health__image {
+    display: none; }
+  .l-health__content {
+    display: none; }
+  .l-health__image--mb {
+    display: block;
+    margin: 0; }
+    .l-health__image--mb img {
+      width: 100%; }
+  .l-health__content--mb {
+    display: block;
+    text-align: center;
+    margin: 0; }
+    .l-health__content--mb p {
+      padding-left: 15%;
+      padding-right: 15%; }
+  .l-health {
     height: 75em; } }
